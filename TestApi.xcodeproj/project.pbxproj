@@ -11,6 +11,8 @@
 		E4AD41FD2AC9E34E009165EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD41FC2AC9E34E009165EE /* ContentView.swift */; };
 		E4AD41FF2AC9E34F009165EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AD41FE2AC9E34F009165EE /* Assets.xcassets */; };
 		E4AD42022AC9E34F009165EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AD42012AC9E34F009165EE /* Preview Assets.xcassets */; };
+		E4AD42092AC9E62A009165EE /* dataa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD42082AC9E62A009165EE /* dataa.swift */; };
+		E4AD420B2AC9E708009165EE /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD420A2AC9E708009165EE /* Moya.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E4AD41FC2AC9E34E009165EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4AD41FE2AC9E34F009165EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4AD42012AC9E34F009165EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4AD42082AC9E62A009165EE /* dataa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataa.swift; sourceTree = "<group>"; };
+		E4AD420A2AC9E708009165EE /* Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				E4AD41FA2AC9E34E009165EE /* TestApiApp.swift */,
 				E4AD41FC2AC9E34E009165EE /* ContentView.swift */,
+				E4AD420A2AC9E708009165EE /* Moya.swift */,
+				E4AD42082AC9E62A009165EE /* dataa.swift */,
 				E4AD41FE2AC9E34F009165EE /* Assets.xcassets */,
 				E4AD42002AC9E34F009165EE /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				E4AD41FD2AC9E34E009165EE /* ContentView.swift in Sources */,
 				E4AD41FB2AC9E34E009165EE /* TestApiApp.swift in Sources */,
+				E4AD42092AC9E62A009165EE /* dataa.swift in Sources */,
+				E4AD420B2AC9E708009165EE /* Moya.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
