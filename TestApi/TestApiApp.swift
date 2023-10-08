@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import Moya
+
 
 @main
 struct TestApiApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MoyaView()
         }
     }
 }

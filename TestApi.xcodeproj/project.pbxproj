@@ -16,6 +16,9 @@
 		E4AD42102AC9EA0C009165EE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E4AD420F2AC9EA0C009165EE /* Moya */; };
 		E4AD42122AC9EA0C009165EE /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E4AD42112AC9EA0C009165EE /* ReactiveMoya */; };
 		E4AD42142AC9EA0C009165EE /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E4AD42132AC9EA0C009165EE /* RxMoya */; };
+		E4AD421A2AC9F14B009165EE /* moya_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD42192AC9F14B009165EE /* moya_1.swift */; };
+		E4AD421C2AC9F156009165EE /* MoyaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD421B2AC9F156009165EE /* MoyaView.swift */; };
+		E4AD421E2AC9F24F009165EE /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD421D2AC9F24F009165EE /* MoyaProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		E4AD41FE2AC9E34F009165EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4AD42012AC9E34F009165EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4AD42082AC9E62A009165EE /* dataa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataa.swift; sourceTree = "<group>"; };
+		E4AD42192AC9F14B009165EE /* moya_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moya_1.swift; sourceTree = "<group>"; };
+		E4AD421B2AC9F156009165EE /* MoyaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaView.swift; sourceTree = "<group>"; };
+		E4AD421D2AC9F24F009165EE /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				E4AD41FA2AC9E34E009165EE /* TestApiApp.swift */,
+				E4AD42192AC9F14B009165EE /* moya_1.swift */,
+				E4AD421B2AC9F156009165EE /* MoyaView.swift */,
+				E4AD421D2AC9F24F009165EE /* MoyaProvider.swift */,
 				E4AD41FC2AC9E34E009165EE /* ContentView.swift */,
 				E4AD42082AC9E62A009165EE /* dataa.swift */,
 				E4AD41FE2AC9E34F009165EE /* Assets.xcassets */,
@@ -158,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AD41FD2AC9E34E009165EE /* ContentView.swift in Sources */,
+				E4AD421C2AC9F156009165EE /* MoyaView.swift in Sources */,
+				E4AD421A2AC9F14B009165EE /* moya_1.swift in Sources */,
 				E4AD41FB2AC9E34E009165EE /* TestApiApp.swift in Sources */,
+				E4AD421E2AC9F24F009165EE /* MoyaProvider.swift in Sources */,
 				E4AD42092AC9E62A009165EE /* dataa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
